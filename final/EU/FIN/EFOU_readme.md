@@ -1,7 +1,15 @@
-Oulu Airport located in northern finland
-most flights are from stockholm/helsinki
-# Already Working
+# Oulu Airport
 
- - sids to the south
- - stars from the south
-# wip sids and stars from the north(rarely used cause all traffic to the airport is from the south)
+- Located in northern Finland
+
+- Most flights are from Stockholm and Helsinki
+
+## Already Working
+
+- SIDs to the south
+
+- STARs from the south
+
+## WIP
+
+- SIDs and STARs from the north (rarely used, since all traffic to the airport is from the south)
