@@ -1,0 +1,1027 @@
+#This is a more realistic version of Schiphol Airport, including correct SID's and airspace boundaries.
+
+[airspace]
+elevation = -11
+center = N52.308601, E4.76389
+magneticvar = -0.175
+floor = 1200
+descendaltitude = 7000
+ceiling = 11000
+above = 13000
+transitionaltitude = 3000
+usa = false
+metric = false
+separtion = 3
+beacons =
+	SPL, N52.33210, E4.74988, 0, Schiphol
+	AMS, N52.33280, E4.70556, 0, Amsterdam
+	PAM, N52.33480, E5.09216, 0, Pampus
+	SPY, N52.54030, E4.85378, 0, Spijkerboor
+	RR, N52.00440, E4.76905, 0, Rotterdam Locator
+	RTM, N51.97370, E4.48097, 0, Rotterdam
+	ROT, N51.89760, E4.55435, 0, Rotterdam
+	STD, N51.74130, E4.24349, 0, Stad
+	HSD, N51.72270, E3.85818, 0, Haamstede
+
+	SUGOL, N52.52556, E3.96722, 114, SUGOL
+	RIVER, N51.91278,	E4.13250,	042, RIVER
+	ARTIP, N52.51111,	E5.56917, 250, ARTIP
+
+boundary =
+	N52.30306,	E5.60944
+	N52.03139,	E5.39806
+	N51.88639,	E5.09639
+	N51.88639,	E4.82806
+	N51.60000,	E4.60417
+	N51.60000,	E4.19250
+	N51.61694,	E4.17833
+	N51.61333,	E4.12583
+	N51.63333,	E4.06861
+	N51.63333,	E4.07194
+	N51.61500,	E3.98611
+	N51.62917,	E3.91444
+	N51.59556,	E3.86861
+	N51.60472,	E3.83833
+	N51.60528,	E3.79917
+	N51.59722,	E3.74667
+	N51.59972,	E3.68139
+	N51.58528,	E3.62722
+	N51.59417,	E3.58333
+	N51.59722,	E3.51944
+	N51.59722,	E3.23056
+	N52.29167,	E3.69639
+	N52.39861,	E3.16667
+	N52.97528,	E3.68528
+	N52.90028,	E4.11806
+	N52.80528,	E4.35000
+	N52.75694,	E4.46750
+	N52.80556,	E5.33333
+	N52.75750,	E5.80667
+	N52.81833,	E5.97278
+	N52.54472,	E6.33333
+	N52.42611,	E6.33333
+	N52.45000,	E6.00000
+
+line1 =
+	N53.24624, E4.90791
+	N53.23457, E4.92373
+	N53.30801, E5.10859
+
+line2 =
+	N53.09131, E4.73984
+	N53.03604, E4.70918
+	N53.01963, E4.72676
+	N52.99980, E4.78711
+	N53.07070, E4.88613
+	N53.18330, E4.88643
+	N53.09131, E4.73984
+
+line3 =
+	N51.73945, E3.94912
+	N51.74644, E3.78906
+	N51.72969, E3.69854
+	N51.70991, E3.69902
+	N51.67822, E3.73184
+	N51.69399, E3.81904
+	N51.62705, E3.95098
+	N51.64878, E4.07510
+	N51.66748, E4.06758
+	N51.68491, E4.04678
+	N51.73945, E3.94912
+
+line4 =
+	N53.26870, E5.53203
+	N53.21406, E5.44600
+	N53.09648, E5.35840
+	N52.96064, E5.06123
+	N52.90835, E4.88799
+	N52.92827, E4.83906
+	N52.94131, E4.76875
+	N52.87212, E4.71270
+	N52.80977, E4.67832
+	N52.44258, E4.56211
+	N52.30918, E4.48281
+	N52.19683, E4.37627
+	N52.05898, E4.20879
+	N52.01191, E4.13174
+	N51.99409, E4.08486
+	N51.92773, E4.02607
+	N51.84780, E3.97891
+	N51.81055, E3.94688
+	N51.67290, E4.13457
+	N51.63345, E4.15801
+	N51.61030, E4.18262
+	N51.59585, E4.00479
+	N51.55112, E4.08047
+	N51.51929, E4.17549
+	N51.50391, E4.23936
+	N51.47163, E4.27412
+	N51.45669, E4.20576
+	N51.45576, E4.14131
+	N51.57422, E3.88604
+	N51.59604, E3.74395
+	N51.58911, E3.54863
+	N51.57666, E3.49961
+	N51.54077, E3.44893
+	N51.48618, E3.52051
+	N51.45391, E3.58691
+	N51.44990, E3.69355
+	N51.40937, E3.82188
+	N51.44321, E4.00654
+	N51.40151, E4.13887
+	N51.38647, E4.22617
+	N51.36064, E4.11152
+	N51.39595, E4.01104
+	N51.35449, E3.88340
+	N51.36914, E3.71650
+	N51.39941, E3.58945
+	N51.39351, E3.42578
+	N51.37769, E3.35010
+	N51.35161, E3.22520
+
+line5 =
+	N52.56318, E5.86719
+	N52.56318, E5.86719
+	N52.56318, E5.86719
+	N52.56318, E5.86719
+	N52.48535, E5.87002
+	N52.42769, E5.79512
+	N52.25190, E5.49531
+	N52.29150, E5.31602
+	N52.34414, E5.03994
+	N52.36431, E5.01406
+	N52.40459, E5.03623
+	N52.43071, E5.06230
+	N52.45137, E5.06904
+	N52.52041, E5.06982
+	N52.56558, E5.05996
+	N52.62373, E5.06592
+	N52.62661, E5.13799
+	N52.66982, E5.24170
+	N52.73037, E5.24746
+	N52.78574, E5.16484
+	N52.83599, E5.11758
+	N52.88618, E5.09404
+	N52.92344, E5.06807
+	N52.96670, E5.15234
+	N53.02725, E5.26895
+	N53.06470, E5.37725
+	N53.04194, E5.39824
+	N52.90264, E5.41309
+	N52.87446, E5.42041
+	N52.85718, E5.45498
+	N52.84565, E5.54727
+	N52.85142, E5.65684
+	N52.81733, E5.66699
+	N52.78184, E5.62529
+	N52.75767, E5.61797
+	N52.68437, E5.61309
+	N52.65850, E5.61914
+	N52.62964, E5.65342
+	N52.60928, E5.83545
+	N52.56318, E5.86719
+	N52.46577, E5.80088
+	N52.46577, E5.80088
+	N52.46577, E5.80088
+	N52.46577, E5.80088
+	N52.50225, E5.83418
+	N52.53545, E5.82949
+	N52.56460, E5.79746
+	N52.58223, E5.73555
+	N52.58760, E5.65811
+	N52.55771, E5.53926
+	N52.49033, E5.37695
+	N52.37876, E5.16855
+	N52.35835, E5.18389
+	N52.33374, E5.24238
+	N52.29766, E5.42441
+	N52.30186, E5.49912
+	N52.32441, E5.54805
+	N52.37593, E5.62061
+	N52.42900, E5.74102
+	N52.46577, E5.80088
+
+line6 =
+	N51.96298, E5.33108
+	N51.99352, E5.16132
+	N51.97732, E4.99880
+	N51.92453, E4.78692
+	N51.89750, E4.59593
+	N51.89626, E4.42591
+	N51.91900, E4.28024
+	N51.99409, E4.08485
+
+line7 =
+	N51.87218, E6.03863
+	N51.96055, E5.92246
+	N51.98138, E5.74748
+	N51.96298, E5.33108
+
+line8 =
+	N51.55923, E6.62392
+	N51.59184, E6.59301
+	N51.63747, E6.59580
+	N51.77503, E6.35721
+	N51.83699, E6.21175
+	N51.86921, E6.07976
+	N51.87218, E6.03863
+	N51.87673, E5.97527
+	N51.85957, E5.89817
+	N51.86340, E5.78045
+	N51.88820, E5.62212
+	N51.87794, E5.49158
+	N51.83268, E5.38895
+	N51.81348, E5.24953
+	N51.82371, E4.98536
+
+line9 =
+	N51.82371, E4.98536
+	N51.75666, E4.72543
+	N51.71896, E4.58125
+	N51.74005, E4.41837
+	N51.84107, E4.07379
+	N51.84779, E3.97891
+
+[airport1]
+name = Amsterdam Airport Schiphol
+code = EHAM
+climbaltitude = 6000
+runways =
+	rwy1, 04, N52.3004, E4.78348, 41.0, 6608, 0, 0, -13
+	rwy2, 06, N52.2879, E4.73402, 58.0, 11483, 820, 0, -11
+	rwy3, 09, N52.3166, E4.74635, 87.0, 11329, 294, 0, -12
+	rwy4, 18C, N52.3314, E4.74003, 183.0, 10826, 0, 1476, -13
+	rwy5, 18L, N52.3213, E4.77996, 183.0, 11155, 1887, 0, -12
+	rwy6, 18R, N52.3627, E4.71193, 183.0, 12467, 886, 0, -13
+	rwy8, 06, N52.2879, E4.73402, 58.0, 11483, 820, 0, -11
+	rwy9, 18R, N52.3627, E4.71193, 183.0, 12467, 886, 0, -13
+
+entrypoints =
+	290, SUGOL
+	070, ARTIP
+	230, RIVER
+
+airlines =
+	tra, 4, b737/b738, transavia, es
+	klm, 10, a332/a333/b737/b738/b739/b772/b77w/b789/b78x/e75s/e75l/e190/e295/e75s, klm, nswe
+	afr, 2, a318/a319/a320/a321/crjx, air france, s
+	baw, 3, a319/a320/a321/b788, speedbird, w
+	dal, 4, a332/a333/a339/a359, delta, w
+	csn, 1, a388/b77w, china southern, e
+	sia, 1, a359, singapore, e
+	aal, 1, b772/b77w/b788/b789, american, w
+	uae, 1, a388/b773/b77w, emirates, e
+	dlh, 2, a319/a320/a20n/a321/a21n, lufthansa, e
+	clh, 2, crj9, hansaline, e
+	ein, 1, a320/a321, shamrock, w
+	abw, 2, b744/b748, air bridge cargo, esw
+	cdn, 1, b738, dutch corendon, esw
+	aee, 2, a320/a20n/a321, aegean, e
+	afl, 2, a320/a333/b738, aeroflot, e
+	amx, 1, b788/b789, aeromexico, w
+	mac, 1, a320, nawras, s
+	kzr, 2, a20n, astanaline, e
+	aca, 2, a333/b77w/b788/b789, air canada, w
+	cao, 1, b77l, air china freight, e
+	aea, 2, a332/b738/b788, europa, s
+	amc, 1, a20n, air malta, e
+	asl, 1, a319, air serbia, e
+	tsc, 2, a332/a333, transat, w
+	bti, 3, bcs3, air baltic, e
+	aza, 2, a320/a321/e195, alitalia, s
+	aja, 1, b738, anadolu jet, e
+	aiz, 2, a21n/b753, arkia, es
+	gti, 1, b744, giant, nswe
+	aua, 2, a320/a319, austrian, e
+	tpa, 1, a332, tampa, s
+	bru, 1, e195/b738, belarus avia, e
+	bms, 3, b738, blue messenger, e
+	lzb, 1, a319, flying bulgaria, e
+	clx, 2, b744/b748, cargolux, nswe
+	cpa, 1, a35k, cathay, e
+	cal, 2, a359/b744, dynasty, e
+	ckk, 1, b77l, cargo king, e
+	ces, 1, a359/b77w, china eastern, e
+	cai, 4, b738, corendon, es
+	ctn, 1, a319/a320, croatia, e
+	csa, 1, a319/at75, csa, e
+	bcs, 3, a306/b752, eurotrans, nswe
+	ezy, 5, a319/a320/a20n, easy, nswe
+	msr, 1, a20n, egyptair, e
+	ely, 1, b738/b789, el al, e
+	uae, 1, b77l/b744, emirates, es
+	etd, 2, b78x, etihad, e
+	etd, 1, b77l, etihad, e
+	ewg, 3, a320/a20n, eurowings, e
+	eva, 2, b78x, eva air, e
+	fdx, 1, b752, fed ex, nswe
+	fin, 2, a321/e190, finnair, e
+	gia, 2, a339/b77w, indonesia, e
+	tgz, 1, b738, tamazi, e
+	ibs, 2, a320/a321, iberexpress, s
+	ice, 1, b3m8/752/b763, ice air, w
+	ira, 2, a332, iran air, e
+	ira, 1, a30b, iran air, e
+	exs, 2, b738, channex, we
+	cks, 1, b744, connie, e
+	kqa, 1, b788, kenya, e
+	klc, 4, e75s/e75l/e190/e295, city, nswe
+	kal, 2, a333, korean air, e
+	kal, 1, b744/b77l, korean air,  e
+	kac, 1, b77w, kuwaiti, e
+	lco, 1, b763/b77w, lan cargo, s
+	lot, 2, b738/b38m/e195, lot, e
+	mph, 1, b744, martinair, es
+	mgl, 2, b738/b763, mongol air, e
+	mnb, 1, a30b/a332, black sea, e
+	nca, 1, b748, nippon cargo, e
+	nax, 3, b738, nor shuttle, e
+	ohy, 1, a320, onur air, e
+	pgt, 2, a20n/a321/a21n, sunturk, e
+	qtr, 2, b77w, qatari, e
+	qtr, 2, b748/b77l, qatari, e
+	ram, 1, a321/b738, royal air maroc, s
+	rja, 1, a319/a321, jordanian, es
+	ryr, 1, b738, ryanair, w
+	sva, 1, b78x, saudia, e
+	sva, 1, b744/b77l, saudia, e
+	sas, 2, a319/a320/a20n/crj9/b736, scandinavian, e              
+	azg, 1, b744/b748, silk west, e                           
+	sqc, 2, b744, sing cargo, esw                             
+	ero, 1, b738, echo romeo, esw                             
+	sxs, 1, b738, sun express, es                             
+	yzr, 2, b744, yangtze river, e                           
+	swr, 2, bcs3/a320/a321/e290, swiss, e                    
+	tap, 3, a319/a320/a20n/a321/a332, air portugal, s           
+	rot, 2, b737/b738, tarom, e
+	jaf, 2, a320/b738/b38m/b788, beauty, nswe
+	tfl, 3, b738/b38m/b788/b7m8, orange, nswe
+	tar, 1, a20n, tunair, s
+	thy, 2, a320/a21n/a333/a359/b738/b77w/b789, turkish, e
+	thy, 2, a332, turkish, e
+	aui, 1, b738/e195, ukraine international, e
+	kzu, 2, a30b, universal cargo, e
+	ual, 3, b788/b789/b78x, united, w
+	svr, 1, a320/a20n/b7m8, sverdovsk air, e
+	vlg, 2, a319/a320/a20n/a321, vueling, s
+	cxa, 1, b788/b789, xiamen air, e
+	csn, 2, b77l, china southern, e
+	mea, 1, a320, cedar jet, s
+	eca, 1, c525, dark knight, nswe
+        hvn, 1, a358, viet nam airlines, e 
+        eju, 3, a319/a20n/a320, alpine , es
+        slm, 1, a343, surinam airways, s
+        bla, 2, b7m8/b738, blue air, e
+        ibe, 2, a333/a320, iberia, s
+        ubd, 1, b734, urair, e
+        lae, 3, b763, lan columbia, s
+        fhy, 2, a320, freebird air, e
+        aic, 2, b77w/b788, air india, e
+        cwc, 1, b744, ace freight, nswe
+        tay, 2, b744, quality, nswe
+        wja, 1, b789, westjet, w
+        dhk, 2, b752, dhl, nswe 
+        ezs, 1, a319, topswiss, e 
+        mas, 2, a333/a332, malaysian airlines, e
+        kkk, 1, a321, atlas global, e
+        tvs, 2, b737, skytravel, e 
+        wow, 1, a321, wow air, w 
+# special
+	adb, 1, a124, antonov bureau, e
+	ph-yyh, 1, tbm7/tbm8/tbm9, n
+	ph-iii, 1, lj24/lj28/lj35/lj40/lj45/lj36/lj55/lj60/lj70/lj75, nw
+	ph-jli, 1, glex/gl5t/gl7t/gl8t, w
+	ph-ikl, 1, g150/g280/galx/glf1/glf2/glf3, e
+	ph-qll, 1, c25a/c25b/c25c/c25m/c500/c501/c510/c525/c550/c56x/c560/c650/c68a/c680/c700/c750, sw
+	ph-lmx, 1, c55b, e
+	ph-mmk, 1, e35l/e50p/e55p/e545/e550, e
+	ph-bbb, 1, fa7x/fa8x, w
+	ph-kgu, 1, f900/fa20/fa50/fa2t/fa5x, e
+	ph-yux, 1, h25b/h25c/hdjt, e
+	n-919ik, 1, gl5t/gl7t/gl8t, w
+	n-828tt, 1, glf4/glf5/glf6, w
+	d-dddd, 1, pc12/pc24/hdjt/prm1, w
+	d-mjkk, 1, hdjt/h25b/h25c/ha4t, w
+	jdi, 1, c56x/cl30/cl35/e35l/e550/h25b/hdjt/lj75/pc12/prm1, jedi, e
+        ph-eak, 2, glf6, nswe
+        
+[airport2]
+name = Rotterdam
+code = RD
+climbaltitude = 3000
+traffic = 5
+runways =
+	rwy7, 06, N51.9521, E4.42824, 57.0, 7218, 656, 656, -15
+
+airlines =
+	tra, 6, b737/b738, transavia, nswe
+	cdn, 3, b738, dutch corendon, esw
+	ph-yyu, 2, cl30/cl35/cl60, nwe
+	ph-gih, 2, galx/glf2/glf3/glf4/glf5/glf6, w
+	ph-kkk, 1, e35l/e50p/e55p/e545/e550, e
+	ph-jjm, 1, ga5c/ga6c/galx, e
+	ph-pop, 1, tbm7/tbm8/tbm9, ns
+	ph-bob, 1, prm1, e
+	ph-ddf, 1, c56x/c68a, e
+	ph-qwe, 1, gl5t/gl7t/gl8t/glex/glf5/glf6, w
+	n-9999t, 1, gl8t, w
+	c-salt, 1, glex, w
+        ph-iro, 1, c172, e
+        cfe, 3, e195, cityflyer
+        clh, 1, crj9, hansaline, e
+entrypoints =
+	020, PAM
+	080, PAM
+	250, HSD
+	200, ROT
+
+#EHLE is delayed due to delayed opening of the airport IRL (currently no arrivals available)
+#[airport3]
+#name = Lelystad Airport
+#code = EHLE
+#climbaltitude = 3000
+#runways =
+#	rwy8, 05, N52.44492, E5.49975, 46.0, 8858, 300, 300, -14
+#
+#entrypoints =
+#	040, ASBES
+
+[area1]
+#Restricted EHAM TMA 3
+shape = polygon
+altitude = 3000
+name = X
+draw = 0
+labelpos = N52.00000, E5.00000
+points =
+	N52.19583,	E5.07333
+	N52.20528,	E5.11944
+	N51.88639,	E5.09639
+	N51.88639,	E4.82806
+
+[area2]
+#Restricted EHAM TMA 4
+shape = polygon
+altitude = 4000
+name = X
+draw = 0
+labelpos = N52.15000, E5.15000
+points =
+	N52.20528, E5.11944
+	N52.26556, E5.41972
+	N52.04778, E5.10806
+
+[area3]
+#Restricted EHAM TMA 5
+shape = polygon
+altitude = 6000
+name = X
+draw = 0
+labelpos = N52.15000, E5.35000
+points =
+	N52.26556, E5.41972
+	N52.30306, E5.60944
+	N52.03139, E5.39806
+	N51.88639, E5.09639
+	N52.04778, E5.10806
+
+[area4]
+#EHAM CTR 1
+shape = circle
+altitude = 3000
+name =
+radius = 8
+position = N52.30806, E4.76417
+labelpos = N52.35500, E4.80000
+
+[area5]
+#EHRD CTR
+shape = circle
+altitude = 3000
+name = RD
+radius = 8
+position = N51.95210, E4.42824
+labelpos = N52.00000, E4.45000
+
+[area6]
+#Restricted EHRD TMA
+shape = polygon
+altitude = 5500
+name = RD
+draw = 0
+labelpos = N51.85000, E3.75000
+points =
+	N51.60000,	E4.19250
+	N51.61694,	E4.17833
+	N51.61333,	E4.12583
+	N51.63333,	E4.06861
+	N51.63333,	E4.07194
+	N51.61500,	E3.98611
+	N51.62917,	E3.91444
+	N51.59556,	E3.86861
+	N51.60472,	E3.83833
+	N51.60472,	E3.83833
+	N51.60528,	E3.79917
+	N51.59722,	E3.74667
+	N51.59972,	E3.68139
+	N51.58528,	E3.62722
+	N51.59417,	E3.58333
+	N51.59722,	E3.51944
+	N51.59722,	E3.23056
+	N52.29167,	E3.69639
+	N52.28500,	E3.98639
+	N51.98889,	E4.11111
+	N51.93611,	E4.35417
+	N51.88639,	E4.82806
+	N51.60000,	E4.60417
+
+[area7]
+#Restricted part of CTA West area, added for spacing purposes over SUGOL (not in TMA)
+shape = polygon
+altitude = 5500
+name = X
+draw = 0
+labelpos = N52.70000, E3.75000
+points =
+	N52.39861,	E3.16667
+	N52.97528,	E3.68528
+	N52.90028,	E4.11806
+	N52.52556,	E3.96722
+	N52.29167,	E3.69639
+
+[area8]
+#Restricted CTA East area
+shape = polygon
+altitude = 5500
+name = X
+draw = 0
+labelpos = N52.60000, E5.95000
+points =
+	N52.80556,	E5.33333
+	N52.75750,	E5.80667
+	N52.81833,	E5.97278
+	N52.54472,	E6.33333
+	N52.42611,	E6.33333
+	N52.45000,	E6.00000
+	N52.30306,	E5.60944
+	N52.51111,	E5.56917
+
+[area9]
+#EHAM CTR 3
+shape = polygon
+altitude = 3000
+name =
+draw = 1
+labelpos = N52.12500, E4.70000
+points =
+	N52.17944,	E4.82111
+	N52.06750,	E4.81093
+	N52.06750,	E4.55750
+	N52.26694,	E4.55750
+
+[area10]
+#EHAM CTR 2
+shape = polygon
+altitude = 3000
+name =
+draw = 1
+labelpos = N52.50000, E4.70000
+points =
+	N52.31528,	E4.54722
+	N52.43056,	E4.55778
+	N52.48500,	E4.57750
+	N52.56750,	E4.60861
+	N52.56778,	E4.81250
+	N52.43917,	E4.80333
+
+[departure1]
+#Departures from RWY24 in 2x2 south configuration (config 1)
+runway = rwy2,	rev
+
+route1 = BERGI1S, BERGI
+	N52.27528,	E4.70111
+	N52.24389,	E4.65111
+	N52.22056,	E4.55750
+	N52.35778,	E4.42111
+	N52.74889,	E4.35889
+
+route2 = VALKO2S, IDRID
+	N52.27528,	E4.70111
+	N52.24389,	E4.65111
+	N52.22056,	E4.55750
+	N52.07139,	E3.83972
+	N51.99611,	E3.49611
+
+route3 = SPY3K, ANDIK
+	N52.27528,	E4.70111
+	N52.28917,	E4.61250
+	N52.54028,	E4.85389
+	N52.73944,	E5.27056
+
+[departure2]
+#Departures from RWY18L in 2x2 south configuration (config 1)
+runway = rwy5
+
+route1 = ARNEM3E,	ARNEM
+	N52.25778,	E4.77444
+	N52.24417,	E5.25694
+	N52.23028,	E5.52889
+	N52.09639,	E6.07667
+
+route2 = RENDI1E, EDUPO
+	N52.25778,	E4.77444
+	N52.24417,	E5.25694
+	N52.10972,	E5.56556
+	N52.06167,	E5.67556
+	N51.97556,	E5.83583
+
+route3 = LOPIK1E, LOPIK
+	N52.18778,	E4.82056
+	N52.15528,	E4.91806
+	N51.93083,	E5.12917
+
+route4 = KUDAD1E, WOODY
+	N52.21417,	E4.80778
+	N51.92417,	E4.76722
+	N51.66750,	E4.56750
+	N51.40556,	E4.36639
+
+[departure3]
+#Departures from RWY36L in 2x2 north configuration (config 2)
+runway = rwy6, rev
+
+route1 = VOLLA2V, IDRID
+	N52.43111,	E4.71833
+	N52.46611,	E4.66139
+	N52.46722,	E4.53444
+	N52.42278,	E4.48889
+	N52.39861,	E4.41444
+	N52.31417,	E4.15611
+	N51.99611,	E3.49611
+
+route2 = BERGI4V, BERGI
+	N52.43111,	E4.71833
+	N52.46611,	E4.66139
+	N52.51778,	E4.57667
+	N52.74889,	E4.35889
+
+route3 = SPY3V, ANDIK
+	N52.43111,	E4.71833
+	N52.54472,	E4.72944
+	N52.58694,	E4.95083
+	N52.73944,	E5.27056
+
+[departure4]
+#Departures from RWY36C in 2x2 north configuration (config2)
+runway = rwy4, rev
+
+route1 = NOPSU2W, ARNEM
+	N52.37806,	E4.76917
+	N52.42361,	E4.84556
+	N52.42417,	E4.98889
+	N52.33472,	E5.09194
+	N52.23028,	E5.52889
+	N52.09639,	E6.07667
+
+route2 = IVLUT3W, EDUPO
+	N52.37806,	E4.76917
+	N52.42361,	E4.84556
+	N52.42417,	E4.98889
+	N52.33472,	E5.09194
+	N52.24417,	E5.25694
+	N52.06167,	E5.67556
+	N51.97556,	E5.83583
+
+route3 = OGINA3W, LOPIK
+	N52.37806,	E4.76917
+	N52.36639,	E4.85028
+	N52.25694,	E4.84778
+	N52.09722,	E5.05472
+	N51.93083,	E5.12917
+
+route4 = WOODY2W, WOODY
+	N52.37806,	E4.76917
+	N52.36639,	E4.85028
+	N52.02056,	E4.84306
+	N51.92417,	E4.76722
+	N51.40556,	E4.36639
+
+[departure5]
+#North configuration departures from EHRD
+runway = rwy7
+
+route1 = ANDIK1A, ANDIK
+	N52.00222,	E4.57417
+	N52.05000,	E4.60889
+	N52.15556,	E4.78694
+	N52.33472,	E5.09194
+	N52.73944,	E5.27056
+
+route2 = ARNEM2A, ARNEM
+	N52.00222,	E4.57417
+	N52.05000,	E4.60889
+	N52.15556,	E4.78694
+	N52.24417,	E5.25694
+	N52.23028,	E5.52889
+	N52.09639,	E6.07667
+
+route3 = COA1A, COA
+	N52.01333,	E4.61000
+	N51.92444,	E4.68278
+	N51.87111,	E4.55694
+	N51.34806,	E3.35528
+
+route4 = INKET1A, INKET
+	N52.01333,	E4.61000
+	N51.81472,	E4.77194
+
+route5 = LUNIX1A, EDUPO
+	N52.00222,	E4.57417
+	N52.05000,	E4.60889
+	N52.15556,	E4.78694
+	N52.24417,	E5.25694
+	N52.06167,	E5.67556
+	N51.97556,	E5.83583
+
+route6 = NEPTU1A, NEPTU
+	N52.01333,	E4.61000
+	N51.81472,	E4.77194
+	N51.84806,	E5.13694
+	N51.90472,	E5.37917
+
+route7 = SOMEL1A, ABNED
+	N51.97750,	E4.49667
+	N51.96389,	E4.36167
+	N51.96139,	E4.33417
+	N51.94083,	E4.08917
+	N51.84917,	E3.17194
+
+route8 = TULIP3A, TULIP
+	N51.97750,	E4.49667
+	N51.96389,	E4.36167
+	N51.96139,	E4.33417
+	N51.94083,	E4.08917
+	N52.15250,	E3.74944
+	N52.36778,	E3.85722
+
+route9 = WOODY1A, WOODY
+	N52.01333,	E4.61000
+	N51.92444,	E4.68278
+	N51.87111,	E4.55694
+	N51.40556,	E4.36639
+
+[departure6]
+#South Configuration for EHRD departures
+runway = rwy7,	rev
+
+route1 = ANDIK1B, ANDIK
+	N51.94806,	E4.41806
+	N52.01667,	E4.55278
+	N52.05000,	E4.60889
+	N52.15556,	E4.78694
+	N52.33472,	E5.09194
+	N52.73944,	E5.27056
+
+route2 = ARNEM2B, ARNEM
+	N51.94806,	E4.41806
+	N52.01667,	E4.55278
+	N52.05000,	E4.60889
+	N52.15556,	E4.78694
+	N52.24417,	E5.25694
+	N52.23028,	E5.52889
+	N52.09639,	E6.07667
+
+route3 = COA1B, COA
+	N51.94806,	E4.41806
+	N51.96139,	E4.33417
+	N51.94917,	E4.18722
+	N51.34806,	E3.35528
+
+route4 = INKET1B, INKET
+	N51.94806,	E4.41806
+	N51.96139,	E4.33417
+	N51.94556,	E4.14417
+	N51.76694,	E4.28972
+	N51.81472,	E4.77194
+
+route5 = LUNIX1B, LUNIX
+	N51.94806,	E4.41806
+	N52.01667,	E4.55278
+	N52.05000,	E4.60889
+	N52.15556,	E4.78694
+	N52.24417,	E5.25694
+	N52.06167,	E5.67556
+	N51.97556,	E5.83583
+
+route6 = NEPTU1B, NEPTU
+	N51.94806,	E4.41806
+	N51.96139,	E4.33417
+	N51.94556,	E4.14417
+	N51.76694,	E4.28972
+	N51.81472,	E4.77194
+	N51.84806,	E5.13694
+	N51.90472,	E5.37917
+
+route7 = SOMEL1B, ABNED
+	N51.94806,	E4.41806
+	N51.96139,	E4.33417
+	N51.94083,	E4.08917
+	N51.84917,	E3.17194
+
+route8 = TULIP2B, TULIP
+	N51.94806,	E4.41806
+	N51.96139,	E4.33417
+	N51.94083,	E4.08917
+	N52.15250,	E3.74944
+	N52.36778,	E3.85722
+
+route9 = WOODY1B, WOODY
+	N51.94806,	E4.41806
+	N51.96139,	E4.33417
+	N51.94556,	E4.14417
+	N51.61944,	E4.40917
+	N51.40556,	E4.36639
+
+
+[departure7]
+#Departures from RWY24 in 1x2 south configuration (config 3/4)
+runway = rwy8, rev
+
+route1 = BERGI1S, BERGI
+	N52.27528,	E4.70111
+	N52.24389,	E4.65111
+	N52.22056,	E4.55750
+	N52.35778,	E4.42111
+	N52.74889,	E4.35889
+
+route2 = VALKO2S, IDRID
+	N52.27528,	E4.70111
+	N52.24389,	E4.65111
+	N52.22056,	E4.55750
+	N52.07139,	E3.83972
+	N51.99611,	E3.49611
+
+route3 = ANDIK1S, ANDIK
+	N52.27389,	E4.69750
+	N52.20833,	E4.76667
+	N52.17139,	E4.86972
+	N52.33472,	E5.09194
+	N52.73944,	E5.27056
+
+route4 = ARNEM2S, ARNEM
+	N52.27389,	E4.69750
+	N52.20833,	E4.76667
+	N52.17139,	E4.86972
+	N52.24417,	E5.25694
+	N52.23028,	E5.52889
+	N52.09639,	E6.07667
+
+route5 = RENDI1S, RENDI
+	N52.27389,	E4.69750
+	N52.20833,	E4.76667
+	N52.17139,	E4.86972
+	N52.24417,	E5.25694
+	N52.10972,	E5.56556
+	N52.06167,	E5.67556
+	N51.97556,	E5.83583
+
+route6 = LOPIK2S, LOPIK
+	N52.27389,	E4.69750
+	N52.20833,	E4.76667
+	N52.15528,	E4.91806
+	N51.93083,	E5.12917
+
+route7 = KUDAD1S, KUDAD
+	N52.27389,	E4.69750
+	N52.16028,	E4.75722
+	N51.92417,	E4.76722
+	N51.66750,	E4.56750
+	N51.40556,	E4.36639
+
+[departure8]
+#Departures from RWY36L in 1x2 north configuration (config 5/6)
+runway = rwy9, rev
+
+route1 = VOLLA2V, IDRID
+	N52.43111,	E4.71833
+	N52.46611,	E4.66139
+	N52.46722,	E4.53444
+	N52.42278,	E4.48889
+	N52.39861,	E4.41444
+	N52.31417,	E4.15611
+	N51.99611,	E3.49611
+
+route2 = BERGI4V, BERGI
+	N52.43111,	E4.71833
+	N52.46611,	E4.66139
+	N52.51778,	E4.57667
+	N52.74889,	E4.35889
+
+route3 = SPY3V, ANDIK
+	N52.43111,	E4.71833
+	N52.54472,	E4.72944
+	N52.58694,	E4.95083
+	N52.73944,	E5.27056
+
+route4 = ARNEM1V, ARNEM
+	N52.42028,	E4.71750
+	N52.48000,	E4.77222
+	N52.48750,	E4.94528
+	N52.33472,	E5.09194
+	N52.23028,	E5.52889
+	N52.09639,	E6.07667
+
+route5 = RENDI1V, RENDI
+	N52.42028,	E4.71750
+	N52.48000,	E4.77222
+	N52.48750,	E4.94528
+	N52.33472,	E5.09194
+	N52.24417,	E5.25694
+	N52.06167,	E5.67556
+	N51.97556,	E5.83583
+
+route6 = LOPIK3V, LOPIK
+	N52.39528,	E4.71528
+	N52.33889,	E4.82417
+	N52.25694,	E4.84778
+	N52.09722,	E5.05472
+	N51.93083,	E5.12917
+
+route7 = KUDAD1V, KUDAD
+	N52.39528,	E4.71528
+	N52.33889,	E4.82417
+	N52.25694,	E4.84778
+	N52.02056,	E4.84306
+	N51.92417,	E4.76722
+	N51.66750,	E4.56750
+	N51.40556,	E4.36639
+
+[transition1]
+runway = rwy5, rev
+beacon = ARTIP
+route 1 = 090
+	N52.51111,	E5.56917
+	N52.35306,	E5.25306,	7000, 220
+	N52.24639,	E5.04167
+	N52.11056,	E4.90944
+	N52.11056,	E4.80139, 2000, 180
+	8.2,	2000,	180
+
+
+[configurations]
+#South Combination with 2 starting and 2 landing runways (usually run when transitioning from a landing peak to a starting peak and vice versa)
+config1 =
+	0, rwy2, startrev
+	0, rwy4, land
+	0, rwy5, start
+	0, rwy6, land
+	0, rwy7, startlandrev
+
+#North Combination with 2 starting and 2 landing runways (usually run when transitioning from a landing peak to a starting peak and vice versa)
+config2 =
+	0, rwy2, land
+	0, rwy4, startrev
+	0, rwy5, landrev
+	0, rwy6, startrev
+	0, rwy7, startland
+
+#South Combination with 1 starting runway and 2 landing runways (regular inbound peak with rain the in area, therefore parallel landing is unavailable)
+config3 =
+	0, rwy8, startrev
+	0, rwy6, land
+	0, rwy3, landrev
+	0, rwy7, startlandrev
+
+#South Combination with 1 starting runway and 2 landing runways (inbound peak during a southwestern storm)
+config4 =
+	0, rwy8, startrev
+	0, rwy6, land
+	0, rwy1, landrev
+	0, rwy7, startlandrev
+
+#North Combination with 1 starting runway and 2 landing runways (inbound peak without RWY06)
+config5 =
+	0, rwy9, startrev
+	0, rwy4, landrev
+	0, rwy5, landrev
+	0, rwy7, startland
+
+#North Combination with 1 starting runway and 2 landing runways (inbound peak with reduced visibility and calm winds)
+config6 =
+	0, rwy9, startrev
+	0, rwy2, land
+	0, rwy3, landrev
+	0, rwy7, startland
+
+[planetypes]
+types =
+	E295, 5, 160, 250, 2.9, 3.2, 1440, 1560, 124, 134, 1.1, 1.3, Embraer
+	A124, 2, 170, 250, 2.3, 2.7, 1000, 1440, 150, 170, 1.1, 1.3, Antonov
+	GALX, 5, 160, 250, 2.9, 3.2, 1440, 1560, 113, 125, 1.1, 1.3, Gulfstream
+	G150, 5, 160, 250, 2.9, 3.2, 1440, 1560, 113, 125, 1.1, 1.3, Gulfstream
+	H25B, 5, 160, 250, 2.9, 3.2, 1440, 1560, 115, 126, 1.1, 1.3, Hawker
+	F2TH, 5, 160, 250, 2.3, 3.2, 1440, 1560, 115, 126, 1.1, 1.3, Dassault
+	H25C, 5, 160, 250, 2.9, 3.2, 1440, 1560, 115, 126, 1.1, 1.3, Hawker
+	HA4T, 5, 160, 250, 2.9, 3.2, 1440, 1560, 115, 126, 1.1, 1.3, Hawker
+	HDJT, 6, 140, 250, 2.9, 3.2, 1440, 1560, 112, 126, 1.1, 1.3, Honda Jet
+	PRM1, 6, 140, 250, 2.9, 3.2, 1440, 1560, 112, 126, 1.1, 1.3, Beech Jet
